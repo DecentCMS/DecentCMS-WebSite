@@ -1,6 +1,7 @@
 {
   "name": "Decent CMS",
-  "host": "local.decentcms.com",
+  "host": ["decentcms.org", "local.decentcms.com"],
+  "port": "*",
   "setup": true,
   "features": {
     "content": {

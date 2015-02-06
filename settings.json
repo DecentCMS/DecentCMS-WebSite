@@ -1,5 +1,5 @@
 {
-  "name": "Decent CMS",
+  "name": "DecentCMS",
   "host": ["decentcms.org", "local.decentcms.com"],
   "port": "*",
   "setup": true,

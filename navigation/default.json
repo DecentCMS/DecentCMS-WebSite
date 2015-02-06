@@ -1,0 +1,5 @@
+[
+  {"name": "home", "title": "Home", "href": "/"},
+  {"name": "docs", "title": "Docs", "href": "/docs"},
+  {"name": "source", "title": "Source", "href": "https://github.com/DecentCMS/DecentCMS"}
+]

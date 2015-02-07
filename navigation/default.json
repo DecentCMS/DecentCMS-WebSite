@@ -1,5 +1,6 @@
 [
   {"name": "home", "title": "Home", "href": "/"},
   {"name": "docs", "title": "Docs", "href": "/docs"},
-  {"name": "source", "title": "Source", "href": "https://github.com/DecentCMS/DecentCMS"}
+  {"name": "source", "title": "Source", "href": "https://github.com/DecentCMS/DecentCMS"},
+  {"name": "forums", "title": "Forums", "href": "https://groups.google.com/forum/#!forum/decentcms"}
 ]

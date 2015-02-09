@@ -27,6 +27,27 @@
               "type": "text"
             }
           }
+        },
+        "api-documentation": {
+          "name": "API Documentation Topic",
+          "description": "API documentation topics dynamically extracted from JsDoc comments.",
+          "parts": {
+            "title": {
+              "type": "title"
+            },
+            "body": {
+              "type": "text"
+            },
+            "scope": {
+              "type": "text"
+            },
+            "feature": {
+              "type": "text"
+            },
+            "service": {
+              "type": "text"
+            }
+          }
         }
       }
     },

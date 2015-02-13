@@ -90,6 +90,8 @@
         "maxsize": 512000
       }
     },
+    "query": {},
+    "file-index": {},
     "documentation": {}
   }
 }

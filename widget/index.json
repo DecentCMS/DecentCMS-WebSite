@@ -1,6 +1,6 @@
 {
   "default": {
-    "description": "A layer applied to all pages",
+    "description": "A layer applied to all pages.",
     "rule": "true",
     "widgets": [
       {
@@ -10,6 +10,24 @@
       {
         "id": "widget:analytics",
         "place": "analytics:before"
+      }
+    ]
+  },
+  "documentation": {
+    "description": "A layer that is displayed only on documentation pages.",
+    "rule": "/^\\/docs(\\/api)?(\\/.+)?$/.test(url)",
+    "widgets": [
+      {
+        "id": "widget:documentation-toc",
+        "place": "leftSidebar:before"
+      },
+      {
+        "id": "widget:documentation-breadcrumbs-top",
+        "place": "main:before"
+      },
+      {
+        "id": "widget:documentation-breadcrumbs-bottom",
+        "place": "main:after"
       }
     ]
   }

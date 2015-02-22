@@ -46,6 +46,21 @@
             },
             "service": {
               "type": "text"
+            },
+            "path": {
+              "type": "text"
+            },
+            "source": {
+              "type": "url"
+            }
+          }
+        },
+        "documentation-toc": {
+          "name": "Documentation TOC",
+          "description": "Documentation Table of Contents, that can display a top-level TOC, a local TOC, breadcrumbs, and previous and next topic links.",
+          "parts": {
+            "toc": {
+              "type": "documentation-toc"
             }
           }
         }
@@ -92,6 +107,7 @@
     },
     "query": {},
     "file-index": {},
-    "documentation": {}
+    "documentation": {},
+    "api-documentation": {}
   }
 }

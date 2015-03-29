@@ -28,6 +28,10 @@
       {
         "id": "widget:documentation-breadcrumbs-bottom",
         "place": "main:after"
+      },
+      {
+        "id": "widget:documentation-edit-button",
+        "place": "main:0.1"
       }
     ]
   }

@@ -108,6 +108,7 @@
     "query": {},
     "file-index": {},
     "documentation": {},
-    "api-documentation": {}
+    "api-documentation": {},
+    "manifest-repository-resolution": {}
   }
 }

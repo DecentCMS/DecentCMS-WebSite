@@ -1,6 +1,7 @@
 {
   "name": "DecentCMS",
-  "host": ["decentcms.org", "local.decentcms.com"],
+  "host": ["decentcms.org"],
+  "debugHost": ["local.decentcms.com"],
   "port": "*",
   "setup": true,
   "features": {
@@ -71,6 +72,7 @@
       "mediaFolder": "media"
     },
     "content-route-handler": {},
+    "content-api": {},
     "prevent-trailing-slash": {},
     "express": {},
     "tokens": {},
@@ -109,7 +111,9 @@
     "query": {},
     "file-index": {},
     "documentation": {},
-    "api-documentation": {},
+    "api-documentation": {
+      "onlyFromCache": "release"
+    },
     "manifest-repository-resolution": {}
   }
 }
